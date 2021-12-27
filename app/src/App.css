@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(29, 18, 48);
   overflow: scroll;
   text-align: center;
   overflow: hidden;
@@ -25,13 +25,14 @@
 }
 
 .header-container {
-  /* background-color: #60c657; */
+  background-color: rgb(29, 18, 48);
 }
 
 .header {
   margin: 0;
   font-size: 50px;
   font-weight: bold;
+  color: #786eff;
 }
 
 .sub-text {
@@ -48,7 +49,7 @@
 .cta-button {
   height: 45px;
   border: 0;
-  width: auto;
+  width: 400px;
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 10px;
@@ -69,6 +70,7 @@
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
+  margin: auto;
 }
 
 .footer-container {
